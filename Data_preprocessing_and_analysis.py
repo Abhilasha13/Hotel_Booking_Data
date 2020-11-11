@@ -4,7 +4,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-data = pd.read_csv('/Users/ashutoshshanker/Desktop/Dataset_BI_Project/hotel_bookings_dataset.csv')
+data = pd.read_csv('./hotel_bookings_dataset.csv')
 data.head()
 
 data['hotel'].value_counts()
