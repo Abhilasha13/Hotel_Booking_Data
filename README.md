@@ -111,11 +111,11 @@ For our business problems, we recommend:
 3.	Help hotel management to predict whether new booking would be canceled or not and approve incoming booking accordingly.
 
 ## REFERENCES
-Hotel booking demand. (n.d.). Retrieved May 10, 2020, from [Kaggle.com](https://www.kaggle.com/jessemostipak/hotel-booking-demand)
+[Hotel booking demand. (n.d.). Retrieved May 10, 2020](https://www.kaggle.com/jessemostipak/hotel-booking-demand)
 
-Hotel Booking Best Prediction Model. (n.d.). Retrieved May 10, 2020, from [Kaggle.com](https://www.kaggle.com/selvarasuk2/hotel-booking-best-prediction-model)
+[Hotel Booking Best Prediction Model. (n.d.). Retrieved May 10, 2020](https://www.kaggle.com/selvarasuk2/hotel-booking-best-prediction-model)
 
-Exploratory Data Analysis of the Hotel Booking Demand with Python. (n.d.). Retrieved May 10, 2020, from [Medium.com](https://medium.com/analytics-vidhya/exploratory-data-analysis-of-the-hotel-booking-demand-with-python-200925230106)
+[Exploratory Data Analysis of the Hotel Booking Demand with Python. (n.d.). Retrieved May 10, 2020](https://medium.com/analytics-vidhya/exploratory-data-analysis-of-the-hotel-booking-demand-with-python-200925230106)
 
-Data Analysis - Hotel Booking Demand. (n.d.). Retrieved May 10, 2020, from [Kaggle.com](https://www.kaggle.com/shubhammahalank/eda-hotel-booking-demand)
+[Data Analysis - Hotel Booking Demand. (n.d.). Retrieved May 10, 2020](https://www.kaggle.com/shubhammahalank/eda-hotel-booking-demand)
 
