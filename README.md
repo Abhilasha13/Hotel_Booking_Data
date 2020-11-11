@@ -30,7 +30,7 @@ Real world data tend to be incomplete and inconsistent. Our dataset had some iss
 **1. Removing columns with more than 90% null values**
 A few columns in the dataset contained null values which were removed in order to improve the quality of data. Columns company, agent and country were removed in this process.
 
-![Columns With Above 90% Null Values](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/columns_with_above_90_percent_null.png)
+![Columns With Above 90% Null Values](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/images/columns_with_above_90_percent_null.png)
 
 
 **2. Removing outliers wherever necessary**
@@ -39,7 +39,7 @@ Some of the columns in the given dataset had outliers which may lead to unnecess
 **3. Finding correlation between the continuous and dependent variable**
 In order to find out how the entire feature set is related to the cancellation status; we have used the Pearson’s Correlation. This step helped us to select features that are useful for our prediction model. As a result of the Pearson’s plot it was observed that the continuous variables like booking_changes, previous_cancellation, lead_time, total_of_special_requests and required_car_parking_spaces had a good correlation. 
 
-![Correlation Between Variables](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/correlation.png)
+![Correlation Between Variables](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/images/correlation.png)
 
 
 ## PROPOSED METHODOLOGY 
@@ -52,14 +52,14 @@ For analyzing the data further and solving the problem of predicting the booking
 ## Data Visualization
 
 ### Dashboard 1: Revenue Generation
-![Revenue Generation](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/revenue_generation.png)
+![Revenue Generation](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/images/revenue_generation.png)
 
 As mentioned, the best practices of visualization was leveraged to understand our dataset and discover key insights that helped us in solution recommendation for the problems that we have focused. Below are the two dashboards that we created using Tableau. 
 
 Dashboard one showcases trend of ‘is Repeated guest’ across different month. Along with it, the cancellation behavior of different market segment for 2 hotels across ‘City Hotel’ and ‘Resort Hotel’  for top 6 countries having maximum cancellations. Insights from this dashboard helps hotel management to manage its revenue generation by understanding cancellation of different market segments and accordingly give preference to bookings. 
 
 ### Dashboard 2: Booking’s Influx management using Agent Prioritization
-![Booking’s Influx management using Agent Prioritization](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/booking_influx_management.png)
+![Booking’s Influx management using Agent Prioritization](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/images/booking_influx_management.png)
 
 Dashboard two with its key insights helps in solving the challenge of managing the booking influx of the two hotels.  Firstly, it focuses on analyzing behavior of booking made directly i.e. booking not made by any agent. Secondly, it then focuses on trend of bookings made via agents and observe the behavior of bookings by considering number of cancellations, repeated guests and previous bookings. Key findings from this dashboard will help hotels to give priority to booking that are made by specific agents having good records and manage the booking influx. In the dashboard shown below that the Agent number 240 has the lowest number of booking cancelations and highest number of bookings from guests who revisit the hotel. It helps in identifying the agents that generate a significant amount of revenue for the hotel and also gives us a reason to give them priority over bookings done by other agents.
 
@@ -68,11 +68,11 @@ During the analysis one important insight was found that the maximum revenue los
 
 ### Figure1: Cancellation to Arrival Days
 
-![Cancellation to Arrival Days](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/cancellation_to_arrival_days.png)
+![Cancellation to Arrival Days](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/images/cancellation_to_arrival_days.png)
 
 ### Figure2: Percentage of Cancellation
 
-![Percentage of Cancellation](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/Percentage_of_Cancellation.png)
+![Percentage of Cancellation](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/images/Percentage_of_Cancellation.png)
 
 
 ## Predictive Modelling
@@ -92,15 +92,15 @@ C5.0 Decision tree algorithm was used to predict the hotel booking cancelations.
 The accuracy that is achieved using top 10 attributes was approx. 84% and with using all the attributes it reduced to 83%. Therefore, it is recommended using the most important attributes for predictions and not all of them as it gives higher accuracy.
 
 ### Figure 1: Decision Tree Algorithm
-![Decision Tree Algorithm](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/Decision_tree_algorithm.png)
+![Decision Tree Algorithm](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/images/Decision_tree_algorithm.png)
 
 ### Figure 2: Decision Tree Plot
-![Decision Tree Plot](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/Decision_tree_plot.png)
+![Decision Tree Plot](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/images/Decision_tree_plot.png)
 
 ## PRECISION AND RECALL
 The value of precision is 0.82 and for recall it is 0.70, the value of precision and recall is calculated using the formula:
 
-![Precision and Recall Formula](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/Precision_Recall.png)
+![Precision and Recall Formula](https://github.com/Abhilasha13/Hotel_Booking_Data/blob/main/images/Precision_Recall.png)
 
 Precision tells us what percentage of the total predicted cancelations were actually canceled bookings. High value of precision means that most of the actual cancelations were predicted by us accurately. On the other hand, recall tells us how many of the actual cancelations our model predicted by labeling them positive. In our case there is high cost associated with false positive, so higher precision is more important. High precision will ensure that all the booking that we predict as canceled are actually canceled.
 
